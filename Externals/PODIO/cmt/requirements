@@ -1,0 +1,4 @@
+package PODIO
+
+macro PODIO_linkopts " -L/cvmfs/cepcsw.ihep.ac.cn/prototype/releases/externals/97.0.0/podio/lib64/ -lpodio -lpodioRootIO"
+include_path "/cvmfs/cepcsw.ihep.ac.cn/prototype/releases/externals/97.0.0/podio/include/"

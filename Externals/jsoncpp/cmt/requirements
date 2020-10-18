@@ -1,0 +1,4 @@
+package jsoncpp
+
+macro_append jsoncpp_linkopts " -L/usr/local/jsoncpp -ljsoncpp --std=c++11 -D_GLIBCXX_USE_CXX11_ABI=0"
+include_path "/data/BOSSParallel/jsoncpp/include"

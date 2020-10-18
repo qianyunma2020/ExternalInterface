@@ -1,0 +1,4 @@
+package tbb
+
+macro_append tbb_linkopts " -L/data/BOSSParallel/tbb20170226/lib/intel64/gcc4.7 -ltbb "
+include_path "/data/BOSSParallel/tbb20170226/include"
